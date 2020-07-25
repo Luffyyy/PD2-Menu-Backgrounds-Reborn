@@ -1,0 +1,10 @@
+{
+	"MenuBGsRebornOptionsButtonTitleID" : "Menu Backgrounds Options",
+	"MenuBGsRebornOptionsButtonDescID" : "Configure the mod here!",
+    "MenuBGsRebornSetTitleID" : "Background Set",
+    "MenuBGsRebornSetDescID" : "Choose the background set the mod will use.",
+    "MenuBgsSameBGTitleID": "Same background for all menus",
+    "MenuBgsSameBGDescID": "Use the standard background for all menus.",
+    "MenuBGsFadeToBlackTitleID": "Fade to Black",
+    "MenuBGsFadeToBlackDescID": "Should the menu fade to black each transition?"
+}

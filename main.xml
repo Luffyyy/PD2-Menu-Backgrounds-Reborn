@@ -1,0 +1,28 @@
+<mod name="MenuBGsReborn" author="Luffy" global_key="MenuBGs" core_class="Core.lua" min_lib_ver="4.2">
+    <AssetUpdates id="28326" version="1.0" provider="modworkshop"/>
+
+    <Hooks file="Hooks.lua">
+        <hook source_file="lib/managers/menumanager"/>
+        <hook source_file="lib/states/ingamewaitingforplayers"/>
+        <hook source_file="lib/managers/crimenetmanager"/>
+        <hook source_file="lib/managers/hud/hudblackscreen"/>
+        <hook source_file="lib/managers/menu/menubackdropgui"/>
+        <hook source_file="lib/managers/hud/hudstageendscreen"/>
+        <hook source_file="lib/managers/hud/hudmissionbriefing"/>
+        <hook source_file="lib/managers/hud/hudlootscreen"/>
+        <hook source_file="lib/managers/menu/menuscenemanager"/>
+    </Hooks>
+
+    <Localization directory="Loc" default="english.txt">
+        <localization language="english" file="english.txt"/>
+    </Localization>
+
+    <Options auto_build_menu="true">
+        <options>
+            <!--Ingame the option menu background will be halved-->
+            <merge_data area_bg="half"/>
+            <option type="bool" default_value="true" name="ExampleOption"/>
+            <option type="table" name="DisabledMenus"/>
+        </options>
+    </Options>
+</mod>
